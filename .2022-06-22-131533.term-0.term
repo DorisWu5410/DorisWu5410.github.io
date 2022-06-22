@@ -1,0 +1,5 @@
+]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ git remote add origin https://github.com/DorisWu5410/DorisWu5410.github.io.git[C[C
+fatal: remote origin already exists.
+]0;~/omni[01;34m~/omni[00m$ git remote add origin https://github.com/DorisWu5410/DorisWu5410.github.io.git[C[C[C[C[C[C[C[C[K一天[K[Kgit rm remote [K[K[K[K[K[K[K[K[K[Kremote re[Km origin
+]0;~/omni[01;34m~/omni[00m$ git remote rm originadd origin https://github.com/DorisWu5410/DorisWu5410.github.io.git
+]0;~/omni[01;34m~/omni[00m$ git 
