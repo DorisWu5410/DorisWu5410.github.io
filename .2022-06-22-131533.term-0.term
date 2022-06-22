@@ -2,4 +2,551 @@
 fatal: remote origin already exists.
 ]0;~/omni[01;34m~/omni[00m$ git remote add origin https://github.com/DorisWu5410/DorisWu5410.github.io.git[C[C[C[C[C[C[C[C[K一天[K[Kgit rm remote [K[K[K[K[K[K[K[K[K[Kremote re[Km origin
 ]0;~/omni[01;34m~/omni[00m$ git remote rm originadd origin https://github.com/DorisWu5410/DorisWu5410.github.io.git
-]0;~/omni[01;34m~/omni[00m$ git 
+]0;~/omni[01;34m~/omni[00m$ git commit [K[K[K[K[K[K[K[K add -A
+]0;~/omni[01;34m~/omni[00m$ git commit -m ""[C[C[Cf"i"r"s"t" "c"o"m"m"i"t"[C
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '9d1b1a287aa24cb6b861efeaf6e0a4ec@d194d1565f2b.(none)')
+]0;~/omni[01;34m~/omni[00m$ git config --global user.email[C jw1987@georgetown.edu
+]0;~/omni[01;34m~/omni[00m$ git config --global user.email jw1987@georgetown.edu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pmmit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <jw1987@georgetown.edu>) not allowed
+]0;~/omni[01;34m~/omni[00m$ git config --global user.name DorisWu5410
+]0;~/omni[01;34m~/omni[00m$ git config --global user.name DorisWu5410[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pmmit -m "first commit"
+[main 4851074] first commit
+ 37 files changed, 25099 insertions(+), 3 deletions(-)
+ create mode 100644 .2022-06-22-131533.term-0.term
+ create mode 100644 2022-06-22-131533.term
+ create mode 100644 app/static/assets/avo-logo.pdf
+ create mode 100644 app/static/assets/avocados.jpg
+ create mode 100644 app/static/assets/background-avocados.jpg
+ create mode 100644 app/static/assets/organic-avocados.jpg
+ create mode 100644 app/static/css/styles.css
+ create mode 100644 app/static/figures/3DPlot.html
+ create mode 100644 app/static/figures/AccuracyPlot.html
+ create mode 100644 app/static/figures/All3.html
+ create mode 100644 app/static/figures/DatePrice.png
+ create mode 100644 app/static/figures/VolumePrice.png
+ create mode 100644 app/static/figures/conventional_monthly_map.html
+ create mode 100644 app/static/figures/correlation-heatmap.html
+ create mode 100644 app/static/figures/logistic_regression.png
+ create mode 100644 app/static/figures/newplot.png
+ create mode 100644 app/static/figures/organic_monthly_map.html
+ create mode 100644 app/static/figures/small_tree.png
+ create mode 100644 app/static/figures/tree.png
+ create mode 100644 app/static/js/scripts.js
+ create mode 100644 app/templates/.index.html-0.term
+ create mode 100644 app/templates/.index.html.sage-chat
+ create mode 100644 app/templates/assets/avo-logo.png
+ create mode 100644 app/templates/assets/avocados.jpg
+ create mode 100644 app/templates/assets/background-avocados.jpg
+ create mode 100644 app/templates/assets/organic-avocados.jpg
+ create mode 100644 app/templates/css/styles.css
+ create mode 100644 app/templates/figures/All3.html
+ create mode 100644 app/templates/figures/DatePrice.png
+ create mode 100644 app/templates/figures/VolumePrice.png
+ create mode 100644 app/templates/figures/bk_lstm_prediction.png
+ create mode 100644 app/templates/figures/conventional_monthly_map.html
+ create mode 100644 app/templates/figures/heat.png
+ create mode 100644 app/templates/figures/organic_monthly_map.html
+ create mode 100644 app/templates/figures/treeplot.png
+ rewrite app/templates/index.html (100%)
+ create mode 100644 app/templates/js/scripts.js
+]0;~/omni[01;34m~/omni[00m$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+]0;~/omni[01;34m~/omni[00m$ git push --set-upstream origin main[C[C[C[C
+Username for 'https://github.com': DOrisWu541         orisWu5410
+Password for 'https://DorisWu5410@github.com': 
+Enumerating objects: 69, done.
+Counting objects:   1% (1/69)Counting objects:   2% (2/69)Counting objects:   4% (3/69)Counting objects:   5% (4/69)Counting objects:   7% (5/69)Counting objects:   8% (6/69)Counting objects:  10% (7/69)Counting objects:  11% (8/69)Counting objects:  13% (9/69)Counting objects:  14% (10/69)Counting objects:  15% (11/69)Counting objects:  17% (12/69)Counting objects:  18% (13/69)Counting objects:  20% (14/69)Counting objects:  21% (15/69)Counting objects:  23% (16/69)Counting objects:  24% (17/69)Counting objects:  26% (18/69)Counting objects:  27% (19/69)Counting objects:  28% (20/69)Counting objects:  30% (21/69)Counting objects:  31% (22/69)Counting objects:  33% (23/69)Counting objects:  34% (24/69)Counting objects:  36% (25/69)Counting objects:  37% (26/69)Counting objects:  39% (27/69)Counting objects:  40% (28/69)Counting objects:  42% (29/69)Counting objects:  43% (30/69)Counting objects:  44% (31/69)Counting objects:  46% (32/69)Counting objects:  47% (33/69)Counting objects:  49% (34/69)Counting objects:  50% (35/69)Counting objects:  52% (36/69)Counting objects:  53% (37/69)Counting objects:  55% (38/69)Counting objects:  56% (39/69)Counting objects:  57% (40/69)Counting objects:  59% (41/69)Counting objects:  60% (42/69)Counting objects:  62% (43/69)Counting objects:  63% (44/69)Counting objects:  65% (45/69)Counting objects:  66% (46/69)Counting objects:  68% (47/69)Counting objects:  69% (48/69)Counting objects:  71% (49/69)Counting objects:  72% (50/69)Counting objects:  73% (51/69)Counting objects:  75% (52/69)Counting objects:  76% (53/69)Counting objects:  78% (54/69)Counting objects:  79% (55/69)Counting objects:  81% (56/69)Counting objects:  82% (57/69)Counting objects:  84% (58/69)Counting objects:  85% (59/69)Counting objects:  86% (60/69)Counting objects:  88% (61/69)Counting objects:  89% (62/69)Counting objects:  91% (63/69)Counting objects:  92% (64/69)Counting objects:  94% (65/69)Counting objects:  95% (66/69)Counting objects:  97% (67/69)Counting objects:  98% (68/69)Counting objects: 100% (69/69)Counting objects: 100% (69/69), done.
+Delta compression using up to 2 threads
+Compressing objects:   1% (1/58)Compressing objects:   3% (2/58)Compressing objects:   5% (3/58)Compressing objects:   6% (4/58)Compressing objects:   8% (5/58)Compressing objects:  10% (6/58)Compressing objects:  12% (7/58)Compressing objects:  13% (8/58)Compressing objects:  15% (9/58)Compressing objects:  17% (10/58)Compressing objects:  18% (11/58)Compressing objects:  20% (12/58)Compressing objects:  22% (13/58)Compressing objects:  24% (14/58)Compressing objects:  25% (15/58)Compressing objects:  27% (16/58)Compressing objects:  29% (17/58)Compressing objects:  31% (18/58)Compressing objects:  32% (19/58)Compressing objects:  34% (20/58)Compressing objects:  36% (21/58)Compressing objects:  37% (22/58)Compressing objects:  39% (23/58)Compressing objects:  41% (24/58)Compressing objects:  43% (25/58)Compressing objects:  44% (26/58)Compressing objects:  46% (27/58)Compressing objects:  48% (28/58)Compressing objects:  50% (29/58)Compressing objects:  51% (30/58)Compressing objects:  53% (31/58)Compressing objects:  55% (32/58)Compressing objects:  56% (33/58)Compressing objects:  58% (34/58)Compressing objects:  60% (35/58)Compressing objects:  62% (36/58)Compressing objects:  63% (37/58)Compressing objects:  65% (38/58)Compressing objects:  67% (39/58)Compressing objects:  68% (40/58)Compressing objects:  70% (41/58)Compressing objects:  72% (42/58)Compressing objects:  74% (43/58)Compressing objects:  75% (44/58)Compressing objects:  77% (45/58)Compressing objects:  79% (46/58)Compressing objects:  81% (47/58)Compressing objects:  82% (48/58)Compressing objects:  84% (49/58)Compressing objects:  86% (50/58)Compressing objects:  87% (51/58)Compressing objects:  89% (52/58)Compressing objects:  91% (53/58)Compressing objects:  93% (54/58)Compressing objects:  94% (55/58)Compressing objects:  96% (56/58)Compressing objects:  98% (57/58)Compressing objects: 100% (58/58)Compressing objects: 100% (58/58), done.
+Writing objects:   1% (1/69)Writing objects:   2% (2/69)Writing objects:   4% (3/69)Writing objects:   5% (4/69)Writing objects:   7% (5/69)Writing objects:   8% (6/69)Writing objects:  10% (7/69)Writing objects:  11% (8/69)Writing objects:  13% (9/69)Writing objects:  14% (10/69)Writing objects:  15% (11/69)Writing objects:  17% (12/69)Writing objects:  18% (13/69)Writing objects:  23% (16/69)Writing objects:  24% (17/69)Writing objects:  26% (18/69)Writing objects:  27% (19/69)Writing objects:  28% (20/69)Writing objects:  31% (22/69)Writing objects:  33% (23/69)Writing objects:  34% (24/69)Writing objects:  36% (25/69), 1.43 MiB | 2.82 MiB/sWriting objects:  37% (26/69), 1.43 MiB | 2.82 MiB/sWriting objects:  39% (27/69), 1.43 MiB | 2.82 MiB/sWriting objects:  40% (28/69), 1.43 MiB | 2.82 MiB/sWriting objects:  42% (29/69), 1.43 MiB | 2.82 MiB/sWriting objects:  44% (31/69), 1.43 MiB | 2.82 MiB/sWriting objects:  44% (31/69), 4.44 MiB | 3.90 MiB/sWriting objects:  46% (32/69), 4.44 MiB | 3.90 MiB/sWriting objects:  47% (33/69), 4.44 MiB | 3.90 MiB/sWriting objects:  49% (34/69), 4.44 MiB | 3.90 MiB/sWriting objects:  52% (36/69), 4.44 MiB | 3.90 MiB/sWriting objects:  53% (37/69), 4.44 MiB | 3.90 MiB/sWriting objects:  55% (38/69), 4.44 MiB | 3.90 MiB/sWriting objects:  56% (39/69), 4.44 MiB | 3.90 MiB/sWriting objects:  57% (40/69), 4.44 MiB | 3.90 MiB/sWriting objects:  59% (41/69), 4.44 MiB | 3.90 MiB/sWriting objects:  60% (42/69), 4.44 MiB | 3.90 MiB/sWriting objects:  62% (43/69), 4.44 MiB | 3.90 MiB/sWriting objects:  63% (44/69), 4.44 MiB | 3.90 MiB/sWriting objects:  65% (45/69), 4.44 MiB | 3.90 MiB/sWriting objects:  66% (46/69), 4.44 MiB | 3.90 MiB/sWriting objects:  68% (47/69), 4.44 MiB | 3.90 MiB/sWriting objects:  69% (48/69), 4.44 MiB | 3.90 MiB/sWriting objects:  71% (49/69), 4.44 MiB | 3.90 MiB/sWriting objects:  72% (50/69), 4.44 MiB | 3.90 MiB/sWriting objects:  73% (51/69), 4.44 MiB | 3.90 MiB/sWriting objects:  75% (52/69), 4.44 MiB | 3.90 MiB/sWriting objects:  76% (53/69), 4.44 MiB | 3.90 MiB/sWriting objects:  78% (54/69), 4.44 MiB | 3.90 MiB/sWriting objects:  79% (55/69), 4.44 MiB | 3.90 MiB/sWriting objects:  81% (56/69), 4.44 MiB | 3.90 MiB/sWriting objects:  84% (58/69), 4.44 MiB | 3.90 MiB/sWriting objects:  85% (59/69), 4.44 MiB | 3.90 MiB/sWriting objects:  86% (60/69), 4.44 MiB | 3.90 MiB/sWriting objects:  88% (61/69), 4.44 MiB | 3.90 MiB/sWriting objects:  89% (62/69), 4.44 MiB | 3.90 MiB/sWriting objects:  91% (63/69), 4.44 MiB | 3.90 MiB/sWriting objects:  92% (64/69), 4.44 MiB | 3.90 MiB/sWriting objects:  94% (65/69), 4.44 MiB | 3.90 MiB/sWriting objects:  95% (66/69), 4.44 MiB | 3.90 MiB/sWriting objects:  97% (67/69), 4.44 MiB | 3.90 MiB/sWriting objects:  98% (68/69), 4.44 MiB | 3.90 MiB/sWriting objects: 100% (69/69), 4.44 MiB | 3.90 MiB/sWriting objects: 100% (69/69), 5.38 MiB | 3.50 MiB/s, done.
+Total 69 (delta 13), reused 31 (delta 5)
+remote: Resolving deltas:   0% (0/13)[Kremote: Resolving deltas:   7% (1/13)[Kremote: Resolving deltas:  15% (2/13)[Kremote: Resolving deltas:  23% (3/13)[Kremote: Resolving deltas:  30% (4/13)[Kremote: Resolving deltas:  38% (5/13)[Kremote: Resolving deltas:  46% (6/13)[Kremote: Resolving deltas:  53% (7/13)[Kremote: Resolving deltas:  61% (8/13)[Kremote: Resolving deltas:  69% (9/13)[Kremote: Resolving deltas:  76% (10/13)[Kremote: Resolving deltas:  84% (11/13)[Kremote: Resolving deltas:  92% (12/13)[Kremote: Resolving deltas: 100% (13/13)[Kremote: Resolving deltas: 100% (13/13), done.[K
+To https://github.com/DorisWu5410/DorisWu5410.github.io.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;~/omni[01;34m~/omni[00m$ cd .[K[K app
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m pip install -r requirements.txt
+Collecting Flask==1.1.4
+  Downloading Flask-1.1.4-py2.py3-none-any.whl (94 kB)
+[?25l[K     |███▌                            | 10 kB 17.4 MB/s eta 0:00:01[K     |███████                         | 20 kB 15.7 MB/s eta 0:00:01[K     |██████████▍                     | 30 kB 19.8 MB/s eta 0:00:01[K     |█████████████▉                  | 40 kB 22.5 MB/s eta 0:00:01[K     |█████████████████▎              | 51 kB 23.7 MB/s eta 0:00:01[K     |████████████████████▉           | 61 kB 26.5 MB/s eta 0:00:01[K     |████████████████████████▎       | 71 kB 24.2 MB/s eta 0:00:01[K     |███████████████████████████▊    | 81 kB 24.6 MB/s eta 0:00:01[K     |███████████████████████████████▏| 92 kB 25.0 MB/s eta 0:00:01[K     |████████████████████████████████| 94 kB 4.2 MB/s 
+[?25hCollecting gunicorn==20.1.0
+  Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+[?25l[K     |████▏                           | 10 kB 28.9 MB/s eta 0:00:01[K     |████████▎                       | 20 kB 35.5 MB/s eta 0:00:01[K     |████████████▍                   | 30 kB 38.1 MB/s eta 0:00:01[K     |████████████████▌               | 40 kB 42.4 MB/s eta 0:00:01[K     |████████████████████▋           | 51 kB 43.8 MB/s eta 0:00:01[K     |████████████████████████▊       | 61 kB 47.3 MB/s eta 0:00:01[K     |████████████████████████████▉   | 71 kB 47.1 MB/s eta 0:00:01[K     |████████████████████████████████| 79 kB 12.7 MB/s 
+[?25hCollecting uvicorn==0.17.6
+  Downloading uvicorn-0.17.6-py3-none-any.whl (53 kB)
+[?25l[K     |██████▏                         | 10 kB 13.2 MB/s eta 0:00:01[K     |████████████▎                   | 20 kB 19.8 MB/s eta 0:00:01[K     |██████████████████▍             | 30 kB 19.5 MB/s eta 0:00:01[K     |████████████████████████▌       | 40 kB 20.1 MB/s eta 0:00:01[K     |██████████████████████████████▋ | 51 kB 20.5 MB/s eta 0:00:01[K     |████████████████████████████████| 53 kB 3.7 MB/s 
+[?25hCollecting markupsafe==2.0.1
+  Downloading MarkupSafe-2.0.1-cp38-cp38-manylinux2010_x86_64.whl (30 kB)
+Collecting itsdangerous<2.0,>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Werkzeug<2.0,>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+[?25l[K     |█                               | 10 kB 21.3 MB/s eta 0:00:01[K     |██▏                             | 20 kB 16.0 MB/s eta 0:00:01[K     |███▎                            | 30 kB 15.2 MB/s eta 0:00:01[K     |████▍                           | 40 kB 14.7 MB/s eta 0:00:01[K     |█████▌                          | 51 kB 16.0 MB/s eta 0:00:01[K     |██████▋                         | 61 kB 15.3 MB/s eta 0:00:01[K     |███████▊                        | 71 kB 16.2 MB/s eta 0:00:01[K     |████████▉                       | 81 kB 16.8 MB/s eta 0:00:01[K     |█████████▉                      | 92 kB 17.5 MB/s eta 0:00:01[K     |███████████                     | 102 kB 18.1 MB/s eta 0:00:01[K     |████████████                    | 112 kB 18.1 MB/s eta 0:00:01[K     |█████████████▏                  | 122 kB 18.1 MB/s eta 0:00:01[K     |██████████████▎                 | 133 kB 18.1 MB/s eta 0:00:01[K     |███████████████▍                | 143 kB 18.1 MB/s eta 0:00:01[K     |████████████████▌               | 153 kB 18.1 MB/s eta 0:00:01[K     |█████████████████▋              | 163 kB 18.1 MB/s eta 0:00:01[K     |██████████████████▋             | 174 kB 18.1 MB/s eta 0:00:01[K     |███████████████████▊            | 184 kB 18.1 MB/s eta 0:00:01[K     |████████████████████▉           | 194 kB 18.1 MB/s eta 0:00:01[K     |██████████████████████          | 204 kB 18.1 MB/s eta 0:00:01[K     |███████████████████████         | 215 kB 18.1 MB/s eta 0:00:01[K     |████████████████████████▏       | 225 kB 18.1 MB/s eta 0:00:01[K     |█████████████████████████▎      | 235 kB 18.1 MB/s eta 0:00:01[K     |██████████████████████████▍     | 245 kB 18.1 MB/s eta 0:00:01[K     |███████████████████████████▍    | 256 kB 18.1 MB/s eta 0:00:01[K     |████████████████████████████▌   | 266 kB 18.1 MB/s eta 0:00:01[K     |█████████████████████████████▋  | 276 kB 18.1 MB/s eta 0:00:01[K     |██████████████████████████████▊ | 286 kB 18.1 MB/s eta 0:00:01[K     |███████████████████████████████▉| 296 kB 18.1 MB/s eta 0:00:01[K     |████████████████████████████████| 298 kB 18.1 MB/s 
+[?25hCollecting click<8.0,>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+[?25l[K     |████                            | 10 kB 14.0 MB/s eta 0:00:01[K     |████████                        | 20 kB 14.9 MB/s eta 0:00:01[K     |███████████▉                    | 30 kB 16.0 MB/s eta 0:00:01[K     |███████████████▉                | 40 kB 16.7 MB/s eta 0:00:01[K     |███████████████████▉            | 51 kB 17.1 MB/s eta 0:00:01[K     |███████████████████████▊        | 61 kB 17.6 MB/s eta 0:00:01[K     |███████████████████████████▊    | 71 kB 17.7 MB/s eta 0:00:01[K     |███████████████████████████████▊| 81 kB 17.6 MB/s eta 0:00:01[K     |████████████████████████████████| 82 kB 1.8 MB/s 
+[?25hRequirement already satisfied: Jinja2<3.0,>=2.10.1 in /usr/lib/python3/dist-packages (from Flask==1.1.4->-r requirements.txt (line 1)) (2.10.1)
+Requirement already satisfied: setuptools>=3.0 in /usr/lib/python3/dist-packages (from gunicorn==20.1.0->-r requirements.txt (line 2)) (45.2.0)
+Collecting h11>=0.8
+  Downloading h11-0.13.0-py3-none-any.whl (58 kB)
+[?25l[K     |█████▋                          | 10 kB 19.5 MB/s eta 0:00:01[K     |███████████▎                    | 20 kB 26.2 MB/s eta 0:00:01[K     |█████████████████               | 30 kB 27.8 MB/s eta 0:00:01[K     |██████████████████████▌         | 40 kB 29.3 MB/s eta 0:00:01[K     |████████████████████████████▏   | 51 kB 30.8 MB/s eta 0:00:01[K     |████████████████████████████████| 58 kB 8.6 MB/s 
+[?25hCollecting asgiref>=3.4.0
+  Downloading asgiref-3.5.2-py3-none-any.whl (22 kB)
+Installing collected packages: itsdangerous, Werkzeug, click, Flask, gunicorn, h11, asgiref, uvicorn, markupsafe
+  Attempting uninstall: Werkzeug
+    Found existing installation: Werkzeug 2.1.2
+    Uninstalling Werkzeug-2.1.2:
+      Successfully uninstalled Werkzeug-2.1.2
+Successfully installed Flask-1.1.4 Werkzeug-1.0.1 asgiref-3.5.2 click-7.1.2 gunicorn-20.1.0 h11-0.13.0 itsdangerous-1.1.0 markupsafe-2.0.1 uvicorn-0.17.6
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://url/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://url/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+^Z
+[1]+  Stopped                 python3 -m main
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/omni/app/main.py", line 32, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://localhost:8080/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/omni/app/main.py", line 32, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/omni/app[01;34m~/omni/app[00m$ taskkill /f /im python.exe
+bash: taskkill: command not found
+]0;~/omni/app[01;34m~/omni/app[00m$ ps
+    PID TTY          TIME CMD
+   1348 pts/0    00:00:00 bash
+   7523 pts/0    00:00:00 python3
+   7525 pts/0    00:00:00 python3
+   9109 pts/0    00:00:00 ps
+]0;~/omni/app[01;34m~/omni/app[00m$ sudo kill -9 28834[C[K[K[K[K[K7525
+[sudo] password for 9d1b1a287aa24cb6b861efeaf6e0a4ec: 
+Sorry, try again.
+[sudo] password for 9d1b1a287aa24cb6b861efeaf6e0a4ec: 
+Sorry, try again.
+[sudo] password for 9d1b1a287aa24cb6b861efeaf6e0a4ec: 
+
+[2]+  Stopped                 sudo kill -9 7525
+]0;~/omni/app[01;34m~/omni/app[00m$ sudo kill -9 7525[C[C[C[C[C[C[C[C[C[C[C[C[K]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ export TERM=dumb PAGER=cat[C[C[C[C[C[C[C[CPS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''[C[C[C[C[C[C[C[C[43Pexport TERM=dumb PAGER=cat[C[C[C[C[C[C[C[C[Kpython3 -m main
+/usr/bin/python3: No module named main
+]0;~/omni[01;34m~/omni[00m$ cd app
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/All3.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/DatePrice.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/VolumePrice.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/1.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/2.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/3.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:12:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+^Z
+[1]+  Stopped                 python3 -m main
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd apppython3 -m main[C[C[C[C[C[C[C[C[C[C[C[Cexport TERM=dumb PAGER=cat[C[C[C[C[C[C[C[C[C[C[C[CPS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''[C[C[C[C[C[C[C[C[C[C[C[C[43Pexport TERM=dumb PAGER=cat[C[C[C[C[C[C[C[C[C[C[C[C[11Ppython3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd apppython3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo lsof -t -i tcp:8000 | xargs kill -9
+[sudo] password for 9d1b1a287aa24cb6b861efeaf6e0a4ec: 
+
+[2]+  Stopped                 sudo lsof -t -i tcp:8000 | xargs kill -9
+]0;~/omni/app[01;34m~/omni/app[00m$ sudo lsof -t -i tcp:8000 | xargs kill -9[C[C[C[C[C[C[C[C[C[C[C[C[25Ppython3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd apppython3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd apppython3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/omni/app/main.py", line 32, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/omni/app[01;34m~/omni/app[00m$ ]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ export TERM=dumb PAGER=cat[C[C[C[C[C[C[C[CPS1='PEXPE\[\]CT_PROMPT>' PS2='PEXPE\[\]CT_PROMPT_' PROMPT_COMMAND=''[C[C[C[C[C[C[C[C[43Pexport TERM=dumb PAGER=cat[C[C[C[C[C[C[C[C[Kcd app
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 20:43:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/All3.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/VolumePrice.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/DatePrice.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/2.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/1.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 20:43:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/img/team/3.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:00] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:01] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:02] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:05] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:08] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:09] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:09] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:09] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:09] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:15] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/treeplot.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:20] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:02:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:02:27] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:02] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/src=%22/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/treeplot.png%22 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:03] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/treeplot.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:29] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/treeplot.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:47] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:48] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:03:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:03:50] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:32] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/treeplot.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:04:33] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/static/static/css/styles.css HTTP/1.1[0m" 404 -
+^Z
+[1]+  Stopped                 python3 -m main
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd appexport TERM=dumb PAGER=cat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/omni/app/main.py", line 32, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/assets/avo-logo.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:17] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/treeplot.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:18] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:19] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:06:19] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:19] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:06:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+^C]0;~/omni/app[01;34m~/omni/app[00m$ [K]0;~/omni/app[01;34m~/omni/app[00m$ [K]0;~/omni/app[01;34m~/omni/app[00m$ [K]0;~/omni/app[01;34m~/omni/app[00m$ [K]0;~/omni/app[01;34m~/omni/app[00m$ ^C
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd apppython3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:24:26] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/static/css/styles.css HTTP/1.1[0m" 404 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:27:04] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:27:06] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/assets/background-avocados.jpg HTTP/1.1[0m" 200 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ l

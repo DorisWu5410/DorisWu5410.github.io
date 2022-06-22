@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>AVO</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/background-avocados.jpg" />
         <!-- Font Awesome icons (free version)-->
@@ -15,12 +15,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../static/css/styles.css" rel="stylesheet" />
+        <link href="{{url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/avo-logo.png" alt="..."/></a>
+                <a class="navbar-brand" href="#page-top">AVO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -51,16 +52,17 @@
                 <div class="text-center">
                   <h2 class="section-heading text-uppercase">About</h2>
                     <h4 class="section-heading text-uppercase">Dataset</h4>
-                    <h5 class="section-subheading text-muted">Info about dataset: features, range, median, etc</h5>
+                    <h5 class="section-subheading text-muted">Features</h5>
                 </div>
               <div class = "text-center">
-               <p class="section-subheading text-muted">
-                  The data set that we used includes information of Hass avocado sales from January 2015 to November 2020 throughout the United States. For each recorded date, the average price, total volume sold, total number of bags of each type sold, and the region were provided. The price of an avocado usually fell between $0.44 and $3.25 with an average price around $1.40. An average of 850,644 avocados were sold in each region.  Lastly, the region that sold the most avocados was the West, selling an average 3,215,323 each day.
+               <p class = "section-subheading text-muted">
+                  The data set that we used includes information of Hass avocado sales from January 2015 to November 2020 throughout the United States. For each recorded date, the average price, total volume sold, total number of bags of each type sold, and the region were provided. 
                 </p>
               </div>
             </div>
 
                 <br><br>
+          
                 <div class="text-center">
                    <h4 class="section-heading text-uppercase">
                      Goal
@@ -68,16 +70,17 @@
                     <h5 class="section-subheading text-muted">
                      Our Mission
                     </h5>
-                    <p class="section-subheading text-muted">We are attempting to enable our project (AVO) to learn from past data and trends to accurately predict avocado prices. AVO will help sellers, manufacturers, and consumers all around. Sellers in particular will be able to identify the optimal price for avocados and maximize their exports. Consumers will also benefit from locating the cheapest areas to purchase avocados and considering the average price of one of our most beloved fruits.
+                    <p class="section-subheading text-muted">
+                      We are attempting to enable our project, the Avocado Value Optimizer (AVO), to learn from past data and trends to accurately predict avocado prices. AVO will help sellers, manufacturers, and consumers all around. Sellers in particular will be able to identify the optimal price for avocados and maximize their exports. Consumers will benefit from locating the cheapest areas to purchase avocados.
                     </p>
                   <br><br>
                    <h4 class="section-heading text-uppercase">Analysis</h4>
-                    <h5 class="section-subheading text-muted">How did we analyze the data
+                    <h5 class="section-subheading text-muted">Our Observations
                     </h5>
                   <p class="section-subheading text-muted">
-                    We analyzed the heat map and choose factors that had high correlation with each other. The average price has no correlation with everything. OK
+                    The price of an avocado usually fell between $0.44 and $3.25 with an overall average price around $1.40. There was a mean of 850,644 avocados sold in each region.  Lastly, the region that sold the most avocados was the West, selling an average of 3,215,323 avocados each day.
                   </p>
-                  <iframe src="../static/figures/correlation-heatmap.html" style="border:none;" width=700 height=700></iframe>
+                
                   <!-- <img src = "./figures/heat.png"> -->
                   <br><br>
               </div>
@@ -88,135 +91,56 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Exploration</h2>
-                    <h3 class="section-subheading text-muted">Here are our models.  Enjoy!</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-
-
-                                <div class="portfolio-caption-heading">Explore</div>
-
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="hello" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class=" portfolio-caption-heading">Figures</div>
-                                <div class="portfolio-caption-subheading text-muted">ok</div>
-                            </div>
-                          
-                          
-                        </div>
-                    </div>
+                    <h3 class="section-subheading text-muted">Visualization of our Data</h3>
+                    <p class=" text-muted">
+                    We analyzed the heat map and did not choose factors that had high correlation with each other. The average price had a weak correlation with all the factors.
+                    </p>
                   
-                  
-                  
-                </div>
+                    <iframe src="{{url_for('static', filename='figures/correlation-heatmap.html')}}" width=500 height=500></iframe>
+
+                   <p class=" text-muted">
+                    Using a line graph, we were able to see the fluctuation of prices throughout the years and see a visual of the prices as well as the general trend associated with it.
+                   </p>
+                  <img src="{{url_for('static', filename='figures/datavis.png')}}" alt="data" width="500" height="300">
+
+                  <p class=" text-muted">
+                    Using a bar chart with long formatted data, we tracked the amount of bags of avocados that each region in the U.S. acquired per year, and we were able to identify a significant increase in demand for avocados.
+                  </p>
+              <iframe src="{{url_for('static', filename='figures/BagsPerYear.html')}}"
+ style="border:none;" width=1000 height=500></iframe>
+                   <p class=" text-muted">
+                    Using a bubble plot and a grouped data set, we were able to identify the price ranges in which companies sold the most number of bags of produce.
+                   </p>
+                  <iframe src="{{url_for('static', filename='figures/GroupedAvoPrice.html')}}"></iframe>
+
+
+
+
+
             </div>
+           </div>
+
         </section>
         <!-- Machine Learning -->
         <section class="page-section" id="ml">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Machine learning</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Our Models</h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid"
-                                src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                      <h4>
+                            <br>
+                            LSTM
+                            <br>
+                      </h4>
+                      </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <div class="container">
                                     <div class="row">
-                                        <h4>LSTM Model</h4>
                                         <h4 class="subheading">Price Visualization in California
                                         </h4>
                                     </div>
@@ -243,114 +167,182 @@
                                     <div class="row">
                                         <div>
                                             <img src="figures/bk_lstm_prediction.png"
-                                                alt="LSTM projection" width="500" height="300">
+                                                alt="LSTM projection" width="425" height="225">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"></div>
+                        <div class="timeline-image">
+                      <h4>
+                            XGBoosting
+                            <br>
+                            Tree
+                            <br>
+                            Model
+                      </h4>
+                      </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>XGBoosting Tree</h4>
                                 <h5 class="subheading">Utilizing Total Volume, Bags, Type, Region, and Date to Predict Avocado Prices</h5>
-                              
-                              
-                              <img src="figures/treeplot.png" alt="XGBoosting Tree Projection" width="500" height="500">
-                           
-                              
+
+
+                              <img src="{{url_for('static', filename='figures/treeplot.png')}}"
+ alt="XGBoosting Tree Projection" width="500" height="500">
+
+
                             </div>
                             <div class="timeline-body">
-                              <p class="text-muted">This is a XGBoost regression model for our avocado data set. Each branch of my “tree” represents a region/location and possesses a “leaf” containing the prediction for the price of avocados for that region (if the price will be greater than or less than 1 dollar) Essentially, it takes the average prices of all avocados  in that specific region and price range and outputs its prediction based on that data. As of right now, I have cut it down to make a tree that only includes regions that have prices under fifty cents an avocado. Once it makes the prediction for a region, it moves on to the next “branch” or region and repeats the process.</p>
+                              <p class="text-muted">This is a XGBoost regression model for our avocado data set. Each branch of my “tree” represents a region/location and possesses a “leaf” containing the prediction for the price of avocados for that region (if the price will be greater than or less than 1 dollar) Essentially, it takes the average prices of all avocados  in that specific region and price range and outputs its prediction based on that data. As of right now, it only includes regions that have prices under fifty cents an avocado. Once it makes the prediction for a region, it moves on to the next “branch” or region and repeats the process.</p>
                                
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                      <h4>
+                            Linear
+                            <br>
+                            Regression
+                            <br>
+                            Model
+                      </h4>
+                      </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>LinearRegression Model</h4>
                                 <h4 class="subheading">Using Total Volume and Date to Predict Price</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">LinearRegression is a simple model that takes in data points and generates a line that best fits the data.  It can take in multiple factors into consideration when creating a line.  I used LinearRegression to take both total volume and date into consideration when predicting the price.  I also use LinearRegression to individually compare date to average price and total volume to average price.  The 3 dimensional graph below shows the predicted prices of avocados generated by my model.  The two graphs below individually compare total volume and date to average prices.</p></div>
+                            <div class="timeline-body"><p class="text-muted">LinearRegression is a simple model that takes in data points and generates a line that best fits the data.  It can take in multiple factors into consideration when creating a line.  I used LinearRegression to take both total volume and date into consideration when predicting the price.  I also use LinearRegression to individually compare date to average price and total volume to average price.  The 3 dimensional graph below shows the predicted prices of avocados generated by my model after taking in test data points.  The two dimensional graphs below individually compare total volume and date to average prices.</p></div>
                           <div>
-                            <iframe src = "figures/All3.html" style = "border:none;" width = 500 height = 500></iframe>
+                            <iframe src="{{url_for('static', filename='figures/All3.html')}}" alt = "3d model" style = "border:none;" width = 500 height = 500></iframe>
                           </div>
                           <div>
-                            <img src = "figures/DatePrice.png" alt = "LinearRegression Model 1" width = 500>
+                            <img src="{{url_for('static', filename='figures/DatePrice.png')}}" alt = "LinearRegression Model 1" width = 500>
+                            
+
 
                           </div>
                           <div>
                           <div>
-                            <img src = "figures/VolumePrice.png" alt = "LinearRegression Model 2" width = 500>
+                            <img src="{{url_for('static', filename='figures/VolumePrice.png')}}" alt = "LinearRegression Model 2" width = 500>
+                            
                           </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                          <h4>
+                            Random
+                            <br>
+                            Forest
+                            <br>
+                            Regression
+                          </h4>
+                      </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>Random Forest Regression</h4>
-                                <h5 class="subheading">predicting avocado prices in the us</h5>
+                                <h5 class="subheading">Predicting Avocado Prices Throughout the us</h5>
                             </div>
                             <div class="timeline-body">
-                              <p class="text-muted">Random Forest uses bagging by creating an uncorrelated forest of decision trees and combining their results for a more accurate result. Here, Random Forest Regression model was implemented to predict prices of both organic and conventional avocados throughout the United States from 2021 to 2025. </p>
-                              <iframe src="../static/figures/organic_monthly_map.html" style="border:none;" width=500 height=500></iframe>
-                              <iframe src="../static/figures/conventional_monthly_map.html" style="border:none;" width=500 height=500></iframe>
+                              <p class="text-muted">Random Forest uses bagging by creating an uncorrelated forest of decision trees and combining their results for a more accurate result. Here, a Random Forest Regression model was implemented to predict prices of both organic and conventional avocados throughout the United States from 2021 to 2025. Using data of avocado prices from January 2015 to November 2022,  </p>
+                              <iframe src="{{url_for('static', filename='figures/organic_monthly_map.html')}}" style="border:none;" width=500 height=500></iframe>
+                              <iframe src="{{url_for('static', filename='figures/conventional_monthly_map.html')}}" style="border:none;" width=500 height=500></iframe>
                           </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                      <li>
+                          <div class="timeline-image">
+                                                                            <h4>
+                            Random
+                            <br>
+                            Forest
+                            <br>
+                            Regression
+                          </h4>
+                      </div>
                           <div class="timeline-panel">
                               <div class="timeline-heading">
-                                  <h4>Random Forest Regression Cont. </h4>
-                                  <h5 class="subheading">predicting avocado prices in the us</h5>
+                                  <h5 class="subheading">Predicting Avocado Prices based on Date and Produce Sold</h5>
                               </div>
                               <div class="timeline-body">
-                                <p class="text-muted">Random Forest uses bagging by creating an uncorrelated forest of decision trees and combining their results for a more accurate result.</p>
-                                <iframe src="../static/figures/3DPlot.html" style="border:none;" width=500 height=500></iframe>
-                                <iframe src="../static/figures/AccuracyPlot.html" style="border:none;" width=500 height=500></iframe>
-                                <iframe src="../static/figures/small_tree.png" style="border:none;" width=500 height=500></iframe>
+                                <p class="text-muted">In order to effectively analyze our avocado dataset, I used a Random Forest Regression  model, which used an ensemble learning method. The aspect of the dataset that I was specifically focusing on was the average price of the Avocados. I came to the conclusion that the columns that had the greatest correlation to the average price was the date and total volume. Using the total volume and date as x values and the average price as a y value, I put this data through my Random Forest Regression model and created a few visualizations to represent the data. RMSE: 0.311
+                                <iframe src="{{url_for('static', filename='figures/3DPlot.html')}}" style="border:none;" width=500 height=500></iframe>
+                                  <p class = "text-muted">
+                                    This is a 3D Scatter Plot
+                                </p>
+                                <iframe src="{{url_for('static', filename='figures/AccuracyPlot.html')}}" width=500 height=500></iframe>
+                                <img src="{{url_for('static', filename='figures/small_tree.png')}}" height=300%>
 
                             </div>
                           </div>
                       </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image">
+                      <h4>
+                            Logistic
+                            <br>
+                            Regression
+                            <br>
+                            Model
+                          </h4>
+                      </div>
     <div class="timeline-panel">
                           <div class="timeline-heading">
-                                <h4>Logistic Regression</h4>
+                                <h5>Predicting Prices based on the Date</h5>
                           </div>
                           <div class="timeline-heading">
-                              <p class="text-muted">Logistic regression is a classification algorithm that predicts a binary output (yes/no) based on previous data.</p>
-                            <img src = "figures/logistic_regression.png" alt = "Logistic RegressionModel 2" width = 500>
+                              <p class="text-muted">Logistic regression is a classification algorithm that predicts a binary output (yes/no) based on previous data. I created a logistic regression model that predicted whether the prices of avocados were greater or less than $1.25. </p>
+                            <img src = "../static/figures/logistic_regression.png" alt = "Logistic Regression Model" width = 500>
                           </div>
+                    </li>
+                    
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                      <h4>
+                            Polynomial
+                            <br>
+                            Regression
+                            <br>
+                            Model
+                          </h4>
+                      </div>
+    <div class="timeline-panel">
+                          <div class="timeline-heading">
+                                <h5>Predicting Prices based on the Date</h5>
+                          </div>
+                          <div class="timeline-heading">
+                              <p class="text-muted">I also fit a polynomial function to the data.</p>
+                            <img src = "../static/figures/polynomial_regression.png" alt = "Logistic Regression Model" width = 500>
+                          </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                              the
+                              <br>
+                              end
+                              <br>
+                              :)
+                            </h4>
+                        </div>
                     </li>
                 </ul>
             </div>
       </section>
 
-</section>
-        
       <!-- Conclusion -->
-        <section class="page-section bg-light" id="conclusion">
+        <section class="page-section bg-dark" id="conclusion">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Conclusion</h2>
-                    <h3 class="section-subheading text-muted">Here is what we found.  ok.</h3>
-
-            </div>
-              
-            <div class = "text-center">
-             <p class="section-subheading text-muted">
-                blah blah blah blah what do we put...
-               results?
+                    <h2 class="section-heading text-uppercase text-white">Conclusion</h2>
+                    <h3 class="section-subheading text-white-50">Our Results</h3>
+                  <p class="section-subheading text-white-50">
+               From analyzing our models, we discovered that avocado prices usually rise from the start of spring to mid-summer.  Our models also show a correlation between price and volume: as number of avocados sold increases, the price drops. Lastly, as time goes on, prices slightly increase, probably due to inflation, and are likely to remain above $1.25.
               </p>
             </div>
-        </section>
+          </div>
+       </section>
 
 
         <!-- Team-->
@@ -358,176 +350,58 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Valorous Vampires.</h3>
+                    <h3 class="section-subheading text-muted">Valorious Vampires.</h3>
                 </div>
               <div class="row">
                     <div class="col-lg-4">
                       <div class="text-center">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4>Doris Wu</h4>
                             <p class="text-muted">Instructor</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                          </div>
                         </div>
                     </div>
-                <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4>Sean Devgan</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
                             <h4>Amogh Janganure</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Programmer</p>
                         </div>
-                    </div>
+              </div>
+              <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                             <h4>Bhavya Krishnan</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Programmer</p>
                         </div>
-                    </div>
-                  <div class="row">
+                </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4>Brent Kong</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4>Aliana Tang</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                            <p class="text-muted">Programmer</p>
+                          </div>
                     </div>
+                  </div>
+                <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4>Jefferson Hong</h4>
-                            <h6 fontsize = "10" >Programmer</h6>
-                            <p class="text-muted"></p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Programmer</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+              </div>
             </div>
         </section>
         <!-- Footer-->
@@ -535,6 +409,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; AVO 2022</div>
+                  <!--
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -544,221 +419,10 @@
                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
                         <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
                     </div>
+                  -->
                 </div>
             </div>
         </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <h2>Random Forest Model</p>
-                                    <iframe src="/figures/organic_monthly_map.html/" style="border:none;"></iframe>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Figures
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            ok
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

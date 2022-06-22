@@ -1,0 +1,68 @@
+]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ cd app[C[C
+]0;~/omni/app[01;34m~/omni/app[00m$ python mang[K[K[K[K[K mainn[K.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:29:21] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m mai
+/usr/bin/python3: No module named mai
+]0;~/omni/app[01;34m~/omni/app[00m$ python [K3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/datavis.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/treeplot.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/figures/bk_lstm_prediction.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/correlation-heatmap.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/BagsPerYear.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/GroupedAvoPrice.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/All3.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:48] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/organic_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:49] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/conventional_monthly_map.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:49] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/3DPlot.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:50] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/static/css/styles.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/Jun/2022 21:30:50] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/assets/background-avocados.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:50] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/DatePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:50] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/static/figures/VolumePrice.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/Jun/2022 21:30:56] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/assets/background-avocados.jpg HTTP/1.1[0m" 404 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ 
