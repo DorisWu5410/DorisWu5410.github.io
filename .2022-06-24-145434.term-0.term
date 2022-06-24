@@ -1,0 +1,28 @@
+]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ ls
+2022-06-22-131533.term  2022-06-22-172837.term  2022-06-24-145434.term  Dockerfile  README.md  [0m[01;34mapp[0m  config.py  entrypoint.sh  host_config  nginx_host
+]0;~/omni[01;34m~/omni[00m$ cd [K[K[Kcd ..
+]0;~[01;34m~[00m$ ls
+2022-06-20-154641.term  [0m[01;31mAICAMPFOLDERS.zip[0m  [01;34mAliana[0m  [01;34mAmogh[0m  [01;34mBhavya[0m  [01;34mBrent[0m  [01;34mJefferson[0m  [01;34mSean[0m  [01;34momni[0m
+]0;~[01;34m~[00m$ cd Amogh
+]0;~/Amogh[01;34m~/Amogh[00m$ ls
+ 2022-06-20-133528.term  'Heatmap Visualization (2).ipynb'  'Random Forest Model.ipynb'   Tester.term   [0m[01;34m__pycache__[0m   avocado.csv   [01;34mexample_app[0m
+]0;~/Amogh[01;34m~/Amogh[00m$ cd exampll[Ke_app
+]0;~/Amogh/example_app[01;34m~/Amogh/example_app[00m$ ls
+[0m[01;34m__pycache__[0m  test.py  [01;34mvenv[0m
+]0;~/Amogh/example_app[01;34m~/Amogh/example_app[00m$ python test.py
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from flask import Flask
+ImportError: No module named flask
+]0;~/Amogh/example_app[01;34m~/Amogh/example_app[00m$ pip instal [Kl flask
+Requirement already satisfied: flask in /projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages (1.1.4)
+Requirement already satisfied: itsdangerous<2.0,>=0.24 in /projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages (from flask) (1.1.0)
+Requirement already satisfied: click<8.0,>=5.1 in /projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages (from flask) (7.1.2)
+Requirement already satisfied: Jinja2<3.0,>=2.10.1 in /usr/lib/python3/dist-packages (from flask) (2.10.1)
+Requirement already satisfied: Werkzeug<2.0,>=0.15 in /projects/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/.local/lib/python3.8/site-packages (from flask) (1.0.1)
+]0;~/Amogh/example_app[01;34m~/Amogh/example_app[00m$ pip install flask[3Python test.py
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from flask import Flask
+ImportError: No module named flask
+]0;~/Amogh/example_app[01;34m~/Amogh/example_app[00m$ 
