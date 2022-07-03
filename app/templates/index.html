@@ -96,12 +96,14 @@
                     We analyzed the heat map and tried to choose factors that had high correlation with each other. However, average price had a weak correlation with all the factors.
                     </p>
 <<<<<<< HEAD
-                    <iframe src="{{url_for('static', filename='figures/corr-heatmap.html')}}" width=500 height=500></iframe>
+<!--                     <iframe src="{{url_for('static', filename='figures/corr-heatmap.html')}}" width=500 height=500></iframe> -->
+                    
+                    <iframe src="..static/figures/corr-heatmap.html" width=500 height=500></iframe>
                      <br><br>
                    <p class=" text-muted">
                     Using a line graph, we were able to see the fluctuation of prices throughout the years and see a visual of the prices as well as the general trend associated with it.
                    </p>
-                  <img src="{{url_for('static', filename='figures/datavis.png')}}" alt="data" width="500" height="300">
+                  <img src="../static/figures/datavis.png" alt="data" width="500" height="300">
                   <br><br>
 =======
                   
@@ -178,7 +180,7 @@
                                     </div>
                                     <div class="row">
                                         <div>
-                                            <img src="{{url_for('static',filename='figures/bk_lstm_prediction.png')}}" alt="LSTM projection" width="425" height="225">
+                                            <img src="../static/figures/bk_lstm_prediction.png" alt="LSTM projection" width="425" height="225">
 
                                         </div>
                                     </div>
@@ -320,7 +322,8 @@
                           <div class="timeline-heading">
                               <p class="text-muted">Logistic regression is a classification algorithm that predicts a binary output (yes/no) based on previous data. I created a logistic regression model that predicted whether the prices of avocados were greater or less than $1.25. </p>
                             <img src = "{{url_for('static', filename='figures/logistic_regression.png')}}" alt = "Logistic Regression Model" width = 500>
-                          </div>
+                            <img src = "../static/figures/logistic_regression.png" alt = "Logistic Regression Model" width = 500>                  
+        </div>
                     </li>
                     
                     <li class="timeline-inverted">
@@ -340,7 +343,8 @@
                           <div class="timeline-heading">
                               <p class="text-muted">I also fit a polynomial function to the data.</p>
                             <img src = "{{url_for('static', filename='figures/polynomial_regression.png')}}" alt = "Logistic Regression Model" width = 500>
-                          </div>
+                            <img src = "../static/figures/polynomial_regression.png" alt = "Logistic Regression Model" width = 500>                  
+        </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
