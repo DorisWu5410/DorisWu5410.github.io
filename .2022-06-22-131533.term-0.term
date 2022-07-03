@@ -2142,4 +2142,73 @@ Try to open
 127.0.0.1 - - [24/Jun/2022 20:38:22] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
 ^C]0;~/omni/app[01;34m~/omni/app[00m$ cd
 ]0;~[01;34m~[00m$ cd omini[K[K[K[Kmni
-]0;~/omni[01;34m~/omni[00m$ git p
+]0;~/omni[01;34m~/omni[00m$ git pull
+remote: Enumerating objects: 37, done.[K
+remote: Counting objects:   2% (1/37)[Kremote: Counting objects:   5% (2/37)[Kremote: Counting objects:   8% (3/37)[Kremote: Counting objects:  10% (4/37)[Kremote: Counting objects:  13% (5/37)[Kremote: Counting objects:  16% (6/37)[Kremote: Counting objects:  18% (7/37)[Kremote: Counting objects:  21% (8/37)[Kremote: Counting objects:  24% (9/37)[Kremote: Counting objects:  27% (10/37)[Kremote: Counting objects:  29% (11/37)[Kremote: Counting objects:  32% (12/37)[Kremote: Counting objects:  35% (13/37)[Kremote: Counting objects:  37% (14/37)[Kremote: Counting objects:  40% (15/37)[Kremote: Counting objects:  43% (16/37)[Kremote: Counting objects:  45% (17/37)[Kremote: Counting objects:  48% (18/37)[Kremote: Counting objects:  51% (19/37)[Kremote: Counting objects:  54% (20/37)[Kremote: Counting objects:  56% (21/37)[Kremote: Counting objects:  59% (22/37)[Kremote: Counting objects:  62% (23/37)[Kremote: Counting objects:  64% (24/37)[Kremote: Counting objects:  67% (25/37)[Kremote: Counting objects:  70% (26/37)[Kremote: Counting objects:  72% (27/37)[Kremote: Counting objects:  75% (28/37)[Kremote: Counting objects:  78% (29/37)[Kremote: Counting objects:  81% (30/37)[Kremote: Counting objects:  83% (31/37)[Kremote: Counting objects:  86% (32/37)[Kremote: Counting objects:  89% (33/37)[Kremote: Counting objects:  91% (34/37)[Kremote: Counting objects:  94% (35/37)[Kremote: Counting objects:  97% (36/37)[Kremote: Counting objects: 100% (37/37)[Kremote: Counting objects: 100% (37/37), done.[K
+remote: Compressing objects:   3% (1/31)[Kremote: Compressing objects:   6% (2/31)[Kremote: Compressing objects:   9% (3/31)[Kremote: Compressing objects:  12% (4/31)[Kremote: Compressing objects:  16% (5/31)[Kremote: Compressing objects:  19% (6/31)[Kremote: Compressing objects:  22% (7/31)[Kremote: Compressing objects:  25% (8/31)[Kremote: Compressing objects:  29% (9/31)[Kremote: Compressing objects:  32% (10/31)[Kremote: Compressing objects:  35% (11/31)[Kremote: Compressing objects:  38% (12/31)[Kremote: Compressing objects:  41% (13/31)[Kremote: Compressing objects:  45% (14/31)[Kremote: Compressing objects:  48% (15/31)[Kremote: Compressing objects:  51% (16/31)[Kremote: Compressing objects:  54% (17/31)[Kremote: Compressing objects:  58% (18/31)[Kremote: Compressing objects:  61% (19/31)[Kremote: Compressing objects:  64% (20/31)[Kremote: Compressing objects:  67% (21/31)[Kremote: Compressing objects:  70% (22/31)[Kremote: Compressing objects:  74% (23/31)[Kremote: Compressing objects:  77% (24/31)[Kremote: Compressing objects:  80% (25/31)[Kremote: Compressing objects:  83% (26/31)[Kremote: Compressing objects:  87% (27/31)[Kremote: Compressing objects:  90% (28/31)[Kremote: Compressing objects:  93% (29/31)[Kremote: Compressing objects:  96% (30/31)[Kremote: Compressing objects: 100% (31/31)[Kremote: Compressing objects: 100% (31/31), done.[K
+Unpacking objects:   3% (1/31)Unpacking objects:   6% (2/31)Unpacking objects:   9% (3/31)Unpacking objects:  12% (4/31)Unpacking objects:  16% (5/31)Unpacking objects:  19% (6/31)Unpacking objects:  22% (7/31)Unpacking objects:  25% (8/31)Unpacking objects:  29% (9/31)Unpacking objects:  32% (10/31)remote: Total 31 (delta 24), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  35% (11/31)Unpacking objects:  38% (12/31)Unpacking objects:  41% (13/31)Unpacking objects:  45% (14/31)Unpacking objects:  48% (15/31)Unpacking objects:  51% (16/31)Unpacking objects:  54% (17/31)Unpacking objects:  58% (18/31)Unpacking objects:  61% (19/31)Unpacking objects:  64% (20/31)Unpacking objects:  67% (21/31)Unpacking objects:  70% (22/31)Unpacking objects:  74% (23/31)Unpacking objects:  77% (24/31)Unpacking objects:  80% (25/31)Unpacking objects:  83% (26/31)Unpacking objects:  87% (27/31)Unpacking objects:  90% (28/31)Unpacking objects:  93% (29/31)Unpacking objects:  96% (30/31)Unpacking objects: 100% (31/31)Unpacking objects: 100% (31/31), 1.04 MiB | 3.42 MiB/s, done.
+From https://github.com/DorisWu5410/DorisWu5410.github.io
+   b671aab..ef3d178  main       -> origin/main
+Updating b671aab..ef3d178
+error: Your local changes to the following files would be overwritten by merge:
+	app/templates/index.html
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	app/static/figures/GroupedAvocadoSales.html
+Please move or remove them before you merge.
+Aborting
+]0;~/omni[01;34m~/omni[00m$ git comm[K[K[K[Kadd -A
+]0;~/omni[01;34m~/omni[00m$ git add[K[K[Kcommit -m :"[K[K""o"u"r" "c"o"m"m"i"t"[C
+[main ca57e84] our commit
+ 13 files changed, 2237 insertions(+), 43 deletions(-)
+ create mode 100644 .2022-06-24-145434.term-0.term
+ create mode 100644 2022-06-24-145434.term
+ create mode 100644 app/static/2022-06-23-123519.zip
+ create mode 100644 app/static/figures/GroupedAvocadoSales.html
+ create mode 100644 app/static/figures/avo.csv
+ rename app/{templates => static}/figures/bk_lstm_prediction.png (100%)
+ rename app/static/figures/{correlation-heatmap.html => corr-heatmap.html} (99%)
+ create mode 100644 app/static/figures/dataset.png
+ rename app/{templates => static}/figures/datavis.png (100%)
+]0;~/omni[01;34m~/omni[00m$ git push
+Username for 'https://github.com': DorisWu5410
+Password for 'https://DorisWu5410@github.com': 
+To https://github.com/DorisWu5410/DorisWu5410.github.io.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/DorisWu5410/DorisWu5410.github.io.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;~/omni[01;34m~/omni[00m$ git checkout
+M	.2022-06-22-131533.term-0.term
+Your branch and 'origin/main' have diverged,
+and have 1 and 6 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ python3 -m main
+/usr/bin/python3: No module named main
+]0;~/omni[01;34m~/omni[00m$ cd app
+]0;~/omni/app[01;34m~/omni/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12349/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc18.ai-camp.dev/9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/
+
+
+ * Debugger is active!
+ * Debugger PIN: 220-105-630
+127.0.0.1 - - [24/Jun/2022 21:21:51] "[37mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [24/Jun/2022 21:21:51] "[33mGET /9d1b1a28-7aa2-4cb6-b861-efeaf6e0a4ec/port/12349/js/scripts.js HTTP/1.1[0m" 404 -
+^C]0;~/omni/app[01;34m~/omni/app[00m$ [K]0;~/omni/app[01;34m~/omni/app[00m$ ]0;~/omni[01;34m~/omni[00m$ [K]0;~/omni[01;34m~/omni[00m$ export TERM=dumb PAGER=cat[C[C[C[C[C[C[C[C[Kgit pull[K[K[K[K
